@@ -23,3 +23,5 @@ Imports:
   dplyr,
   magrittr,
   tidyr
+URL: https://github.com/RussJGoebel/TFschedules
+BugReports: https://github.com/RussJGoebel/TFschedules/issues
