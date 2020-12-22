@@ -1,0 +1,470 @@
+<table>
+<tbody><tr>
+  <th><font size="-1">Class<br>/Call
+  </font></th><th><font size="-1">Title<br>/Instructor
+  </font></th><th><font size="-1">Open<br>Seats
+  </font></th><th><font size="-1">Type
+  </font></th><th><font size="-1">Bld
+  </font></th><th><font size="-1">Room
+  </font></th><th><font size="-1">Day
+  </font></th><th><font size="-1">Start
+  </font></th><th><font size="-1">Stop
+  </font></th><th><font size="-1">Notes
+
+
+</font></th></tr><tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA615 A1</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Data&nbsp;Sci&nbsp;in&nbsp;R<br><a href="HTTP://math.bu.edu/people/sussman/" target="_BLANK">Sussman</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">   6</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Lecture</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=LSE">LSE</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">B01</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Mon,Wed,Fri</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 2:30pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 3:20pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Mts w/CAS MA415</font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA615 A2</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Data&nbsp;Sci&nbsp;in&nbsp;R<br><a href="HTTP://math.bu.edu/people/sussman/" target="_BLANK">Sussman</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">   0</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Discussion</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=CAS">CAS</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">B25A</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Wed</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 3:35pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 4:25pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Mts w/CAS MA415<br>Class Full</font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA615 A3</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Data&nbsp;Sci&nbsp;in&nbsp;R<br><a href="HTTP://math.bu.edu/people/sussman/" target="_BLANK">Sussman</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">   5</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Discussion</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=CAS">CAS</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">B25A</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Wed</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 4:40pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 5:30pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Mts w/CAS MA415</font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA615 A4</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Data&nbsp;Sci&nbsp;in&nbsp;R<br><a href="HTTP://math.bu.edu/people/sussman/" target="_BLANK">Sussman</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">   2</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Discussion</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=PHO">PHO</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">201</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Thu</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">11:15am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">12:05pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Mts w/CAS MA415</font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA676 A1</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Stat&nbsp;Prac&nbsp;2<br>Carvalho</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">   0</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Lecture</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=CAS">CAS</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">306</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Tue,Thu</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 8:00am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 9:15am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">MSSP Students<br>Only<br>Class Full</font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA676 A2</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Stat&nbsp;Prac&nbsp;2<br>Carvalho</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">   4</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Lecture</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=CAS">CAS</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">306</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Mon,Wed</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">10:10am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">11:25am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">MSSP Students</font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA676 B1</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Stat&nbsp;Prac&nbsp;2<br>Wright</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">   0</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Discussion</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=CAS">CAS</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">306</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Thu</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">11:00am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">11:50am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">MSSP Students<br>Only<br>Class Full</font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA676 B2</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Stat&nbsp;Prac&nbsp;2<br>Wright</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">   3</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Discussion</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=CAS">CAS</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">306</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Mon</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">12:20pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 1:10pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">MSSP Students</font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA676 C1</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Stat&nbsp;Prac&nbsp;2<br>Yajima</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">   4</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Lab</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=CAS">CAS</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">306</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Fri</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">10:10am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">11:00am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">MSSP Students<br>Only</font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA676 C2</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Stat&nbsp;Prac&nbsp;2<br>Yajima</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">   0</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Lab</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=CAS">CAS</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">306</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Tue</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">12:20pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 1:10pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">MSSP Students<br>Only<br>Class Full</font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA676 C3</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Stat&nbsp;Prac&nbsp;2<br>Yajima</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">   0</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Lab</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=SHA">SHA</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">201</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Fri</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 9:05am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 9:55am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">MSSP Students<br>Only<br>Class Full</font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA677 A1</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Concpt&nbsp;Fdn&nbsp;Stat<br>Wright</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">  10</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Lecture</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=CAS">CAS</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">306</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Mon,Wed,Fri</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 8:00am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 8:50am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA677 B1</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Concpt&nbsp;Fdn&nbsp;Stat<br>Wright</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">   3</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Discussion</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=CAS">CAS</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">306</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Mon</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 9:05am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 9:55am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA677 B2</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Concpt&nbsp;Fdn&nbsp;Stat<br>Wright</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">   7</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Discussion</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=CAS">CAS</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">306</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Wed</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 9:05am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 9:55am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA679 A1</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Appl&nbsp;Stat&nbsp;Learn<br>Yajima</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">   5</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Lecture</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=CAS">CAS</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">306</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Tue,Thu</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 9:30am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">10:45am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA679 B1</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Appl&nbsp;Stat&nbsp;Learn<br>Yajima</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">   0</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Discussion</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=CAS">CAS</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">306</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Tue</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">11:00am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">11:50am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Class Full</font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA679 B2</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Appl&nbsp;Stat&nbsp;Learn<br>Yajima</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">   5</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Discussion</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=CAS">CAS</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">306</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Wed</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">12:20pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 1:10pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA684 A1</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Appl&nbsp;Mult&nbsp;Regr<br><a href="HTTP://math.bu.edu/people/ag" target="_BLANK">Gangopadhyay</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">  28</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Lecture</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=LSE">LSE</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">B01</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Tue,Thu</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">11:00am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">12:15pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA684 A2</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Appl&nbsp;Mult&nbsp;Regr<br><a href="HTTP://math.bu.edu/people/ag" target="_BLANK">Gangopadhyay</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">   0</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Discussion</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=EPC">EPC</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">206</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Mon</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 2:30pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 3:20pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Class Full</font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA684 A3</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Appl&nbsp;Mult&nbsp;Regr<br><a href="HTTP://math.bu.edu/people/ag" target="_BLANK">Gangopadhyay</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">  11</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Discussion</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=BRB">BRB</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">113</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Mon</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 3:35pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 4:25pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA684 A4</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Appl&nbsp;Mult&nbsp;Regr<br><a href="HTTP://math.bu.edu/people/ag" target="_BLANK">Gangopadhyay</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">  18</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Discussion</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=BRB">BRB</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">113</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Mon</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 4:40pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 5:30pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA713 A1</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Func&nbsp;Comp&nbsp;Var&nbsp;1<br>Rohrlich</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">  13</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Independent</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=CAS">CAS</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">214</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Tue,Thu</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 2:00pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 3:15pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA717 A1</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Functn&nbsp;Anlys&nbsp;1<br><a href="HTTP://math.bu.edu/people/mabeck" target="_BLANK">Beck</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">   8</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Independent</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=CAS">CAS</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">211</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Tue,Thu</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">12:30pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 1:45pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA722 A1</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Diff&nbsp;Top&nbsp;2<br><a href="HTTP://math.bu.edu/people/lau/Lau/My_geometry_life.html" target="_BLANK">Lau</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">  11</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Independent</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=NIP">NIP</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">320</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Tue,Thu</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 9:30am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">10:45am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA731 A1</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Lie&nbsp;Groups/Alg<br><a href="HTTP://math.bu.edu/people/kimura" target="_BLANK">Kimura</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">  11</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Independent</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=CAS">CAS</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">203</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Mon,Wed,Fri</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">11:15am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">12:05pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA742 A1</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Algebra&nbsp;2<br><a href="HTTP://sites.google.com/bu.edu/pottharst" target="_BLANK">Pottharst</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">  17</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Independent</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=CAS">CAS</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">214</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Tue,Thu</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">12:30pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 1:45pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA746 A1</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Alg&nbsp;Geom&nbsp;2<br><a href="HTTP://math.bu.edu/people/ghs" target="_BLANK">Stevens</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">  10</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Independent</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=BRB">BRB</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">121</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Tue,Thu</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">11:00am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">12:15pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA751 A1</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Stat&nbsp;Machn&nbsp;Lrng<br><a href="HTTP://math.bu.edu/people/mkon/" target="_BLANK">Kon</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">  24</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Lecture</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=CAS">CAS</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">306</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Tue,Thu</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 5:00pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 6:15pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA751 A2</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Stat&nbsp;Machn&nbsp;Lrng<br>TBA</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">  13</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Discussion</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=CAS">CAS</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">B27</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Mon</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">12:20pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 1:10pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA751 A3</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Stat&nbsp;Machn&nbsp;Lrng<br>TBA</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">  13</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Discussion</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=CAS">CAS</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">B27</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Mon</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 1:25pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 2:15pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA780 A1</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Prob&nbsp;Theory&nbsp;2<br><a href="HTTP://math.bu.edu/people/bourguin/" target="_BLANK">Bourguin</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">  13</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Independent</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=CAS">CAS</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">320</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Tue,Thu</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">12:30pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 1:45pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA782 A1</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Hypothesis&nbsp;Test<br>Zhang</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">  17</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Independent</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=NIP">NIP</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">320</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Tue,Thu</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">11:00am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">12:15pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA842 A1</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Algebra&nbsp;Seminar<br><a href="HTTP://math.bu.edu/people/jsweinst/" target="_BLANK">Weinstein</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">   4</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Independent</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=BRB">BRB</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">121</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Tue,Thu</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">12:30pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 1:45pm</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA876 A1</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Pde&nbsp;Seminar<br><a href="HTTP://math.bu.edu/people/rgoh/" target="_BLANK">Goh</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">  10</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Independent</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd=BRB">BRB</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">121</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Tue,Thu</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"> 9:30am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">10:45am</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA901 A1</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Internship&nbsp;Stat<br>TBA</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">  30</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Independent</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd="></a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Arranged</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">For MA and MSSP<br>Students Only</font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA992 A2</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Ds&nbsp;Statistics<br><a href="HTTP://math.bu.edu/people/atchade/index.html" target="_BLANK">Atchade</a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">   4</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Directed Study</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd="></a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Arranged</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA992 E1</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Ds&nbsp;Statistics<br>Staff</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">   5</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Directed Study</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd="></a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Arranged</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td></tr>
+
+<tr align="center" valign="top">
+  <td><font size="-1" color="#000000" face="Times New Roman">GRS MA992 Z1</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Ds&nbsp;Statistics<br>Staff</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">   5</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Directed Study</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"><a href="http://www.bu.edu/link/bin/uiscgi_dept_class_sched?applpath=bldg.pl&amp;BldgCd="></a></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman">Arranged</font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td>
+  <td><font size="-1" color="#000000" face="Times New Roman"></font></td></tr>
+</tbody></table>
