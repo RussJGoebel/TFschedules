@@ -1,5 +1,6 @@
 library(tidyverse)
 
+
 server <- function(input, output) {
 
   GRS_table <- TFschedules::htmltxt_to_table_schedule("../../Data/GRS.txt",by_day = TRUE)
@@ -98,7 +99,7 @@ server <- function(input, output) {
       summarize(Day = str_c(unique(Day),collapse = ","),
                 nonoverlapping_meetings = all(nonoverlapping_meetings),
                 overlapping_meetings = any(overlapping_meetings))%>%
-      mutate(`Class/Call` = str_replace(`Class/Call`,"( [A-Z][0-9])",trim_off_number)) %>% group_by(`Class/Call`) %>%
+      mutate(`Class/Call` = str_replace(`Class/Call`,"( [A-Z][0-9])",TFschedules::trim_off_number)) %>% group_by(`Class/Call`) %>%
       summarize(`Schedule Conflicts` = sum(overlapping_meetings),
                 `Total Sections` = sum(nonoverlapping_meetings)+sum(`overlapping_meetings`)) %>% arrange(`Schedule Conflicts`)
 

@@ -1,5 +1,3 @@
-
-
 #' Read an html table stored in filename following a specific format to a tibble, with cleaning.
 #'
 #' Some classes have extra times for a given table row. These appear with an extra Day not separated by a comma.
