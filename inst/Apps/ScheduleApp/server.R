@@ -1,10 +1,10 @@
 library(tidyverse)
-
+library(TFschedules)
 
 server <- function(input, output) {
 
-  GRS_table <- TFschedules::htmltxt_to_table_schedule("../../Data/GRS.txt",by_day = TRUE)
-  CAS_table <- TFschedules::htmltxt_to_table_schedule("../../Data/CAS.txt",by_day = TRUE)
+  GRS_table <- TFschedules::htmltxt_to_table_schedule("GRS.txt",by_day = TRUE)
+  CAS_table <- TFschedules::htmltxt_to_table_schedule("CAS.txt",by_day = TRUE)
 
   # Schedule Input -------------------------------
 
