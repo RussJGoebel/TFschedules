@@ -11,7 +11,7 @@ server <- function(input, output) {
 
   valid_times <- format(seq(lubridate::parse_date_time("12:00am", '%I:%M %p'),by = "5 min", length.out = 288), '%I:%M %p')
   valid_times <- ifelse(str_starts(valid_times,"0"),str_sub(valid_times,2),valid_times) # remove leading zeroes
-  valid_times <- factor(valid_times, levels = valid_times) # in an rhandsontable, using factors generates dropdown options
+  valid_times <- factor(valid_times, levels = valid_times) # in an rtable, using factors generates dropdown options
 
   single_row <- data.frame(Mon = rep(FALSE,1),
                            Tue = rep(FALSE,1),
@@ -55,7 +55,7 @@ server <- function(input, output) {
 
       }
 
-    rhandsontable::rhandsontable(RV$df, width = 600, height = 300, search = F)
+    rhandsontable::rhandsontable(RV$df, width = 600,height = 150, search = F) %>%rhandsontable::hot_table(stretchH = "all")
   })
 
 
@@ -73,10 +73,21 @@ server <- function(input, output) {
 
 
   GRS_RV <- reactive({
-    table = GRS_table %>% group_by(`Class/Call`) %>%
-      summarize(Day = str_c(unique(Day), collapse = ","), Start = Start, Stop = Stop, Bld = Bld, Room = Room, Notes = Notes)
+    gdata <- inner_join(RV$pivot, GRS_table, by = "Day")
 
-    return(table)
+    gdata <- gdata %>%mutate(
+      nonoverlapping_meetings = ifelse(value,check_not_overlap(Start.x,Stop.x,Start.y,Stop.y),TRUE),
+      overlapping_meetings = !ifelse(value,check_not_overlap(Start.x,Stop.x,Start.y,Stop.y),TRUE)
+    )  %>% group_by(`Class/Call`,Type) %>%
+      summarise(`Title/Instructor` = `Title/Instructor`[1],
+                Day = str_c(unique(Day),collapse = ","),
+                Start = Start.y[1],
+                Stop = Stop.y[1],
+                Bld = Bld[1],
+                Room = Room[1],
+                `Compatible with Schedule` = ifelse(all(nonoverlapping_meetings),"Yes","No"))
+
+    return(gdata)
   }
   )
 
@@ -85,16 +96,32 @@ server <- function(input, output) {
 
   output$GRS <- renderDataTable({
     res <- GRS_RV()
-    return(datatable(res))
+    compatible <- res$`Compatible with Schedule`
+    col_to_format <- rep(TRUE,dim(res)[2])
+    colors <- ifelse(compatible,"white","black")
+    return(datatable(res) %>% formatStyle(columns = col_to_format,target = "row", backgroundColor = styleEqual(levels = c("Yes","No"),
+                                                                                                               values = c("White","lightgray"))))
   })
 
 
   CAS_RV <- reactive({
-    table = CAS_table %>% group_by(`Class/Call`) %>%
-      summarize(Day = str_c(unique(Day), collapse = ","), Start = Start, Stop = Stop, Bld = Bld, Room = Room, Notes = Notes)
+    cdata <- inner_join(RV$pivot, CAS_table, by = "Day")
+
+    # Identify schedule conflicts for individual days, and consolidate days by Class/Call
+    cdata <- cdata %>%mutate(
+      nonoverlapping_meetings = ifelse(value,check_not_overlap(Start.x,Stop.x,Start.y,Stop.y),TRUE),
+      overlapping_meetings = !ifelse(value,check_not_overlap(Start.x,Stop.x,Start.y,Stop.y),TRUE)
+    ) %>% group_by(`Class/Call`,Type) %>%
+      summarize(`Title/Instructor` = `Title/Instructor`[1],
+                Day = str_c(unique(Day),collapse = ","),
+                Start = Start.y[1],
+                Stop = Stop.y[1],
+                Bld = Bld[1],
+                Room = Room[1],
+                `Compatible with Schedule` = ifelse(all(nonoverlapping_meetings),"Yes","No"))
 
 
-    return(table)
+    return(cdata)
   }
   )
 
@@ -102,7 +129,11 @@ server <- function(input, output) {
 
   output$CAS <-  renderDataTable({
     res <- CAS_RV()
-    return(datatable(res))
+    compatible <- res$`Compatible with Schedule`
+    col_to_format <- rep(TRUE,dim(res)[2])
+    colors <- ifelse(compatible,"white","black")
+    return(datatable(res) %>% formatStyle(columns = col_to_format,target = "row", backgroundColor = styleEqual(levels = c("Yes","No"),
+                                                                       values = c("White","lightgray"))))
   })
 
 
@@ -112,10 +143,11 @@ server <- function(input, output) {
 
     jdata <- inner_join(RV$pivot,full_table, by = "Day")
 
+    # Obtain unique types, such as lecture, discussion, lab or independent
     types <- unique(jdata$Type)
     types <- c(types[-1],types[1])
 
-    # Identify schedule conflicts
+    # Identify schedule conflicts for individual days, and consolidate days by Class/Call
     jdata <- jdata %>%mutate(
       nonoverlapping_meetings = ifelse(value,check_not_overlap(Start.x,Stop.x,Start.y,Stop.y),TRUE),
       overlapping_meetings = !ifelse(value,check_not_overlap(Start.x,Stop.x,Start.y,Stop.y),TRUE)
