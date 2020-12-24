@@ -33,8 +33,8 @@ ui <- fluidPage(
         tabPanel("GRS",dataTableOutput("GRS"),
                  p("Sections with schedule conflicts are highlighted in gray.")),
         tabPanel("Notes",
-                 h3("Please double check to make sure that there are no schedule conflicts before making decisions using this app."),
-                 h3("Remember to close your browser after you are finished. This app can be hosted for only 25 active hours a month!"),
+                 h4("Please double check to make sure that there are no schedule conflicts before making decisions using this app."),
+                 h4("If you are using this on shinyapps.io, Remember to close your browser after you are finished. This app can be hosted for only 25 active hours a month!"),
                  HTML("<p>Code for this app can be downloaded at <a href='https://github.com/RussJGoebel/TFschedules'> this Github repository.</a></p>"))
 
       )
