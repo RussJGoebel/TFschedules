@@ -9,8 +9,12 @@ server <- function(input, output) {
 
   # Schedule Input -------------------------------
 
+  trim_leading_0 <- function(x){
+    ifelse(str_starts(x,"0"),str_sub(x,2),x)
+  }
+
   valid_times <- format(seq(lubridate::parse_date_time("12:00am", '%I:%M %p'),by = "5 min", length.out = 288), '%I:%M %p')
-  valid_times <- ifelse(str_starts(valid_times,"0"),str_sub(valid_times,2),valid_times) # remove leading zeroes
+  valid_times <- trim_leading_0(valid_times) # remove leading zeroes
   valid_times <- factor(valid_times, levels = valid_times) # in an rtable, using factors generates dropdown options
 
   single_row <- data.frame(Mon = rep(FALSE,1),
@@ -99,6 +103,11 @@ server <- function(input, output) {
     compatible <- res$`Compatible with Schedule`
     col_to_format <- rep(TRUE,dim(res)[2])
     colors <- ifelse(compatible,"white","black")
+
+    res$Start <- factor(trim_leading_0(res$Start), levels = valid_times)
+    res$Stop <- factor(trim_leading_0(res$Stop), levels = valid_times)
+
+
     return(datatable(res) %>% formatStyle(columns = col_to_format,target = "row", backgroundColor = styleEqual(levels = c("Yes","No"),
                                                                                                                values = c("White","lightgray"))))
   })
@@ -132,7 +141,13 @@ server <- function(input, output) {
     compatible <- res$`Compatible with Schedule`
     col_to_format <- rep(TRUE,dim(res)[2])
     colors <- ifelse(compatible,"white","black")
-    return(datatable(res) %>% formatStyle(columns = col_to_format,target = "row", backgroundColor = styleEqual(levels = c("Yes","No"),
+
+    res$Start <- factor(trim_leading_0(res$Start), levels = valid_times)
+    res$Stop <- factor(trim_leading_0(res$Stop), levels = valid_times)
+
+    return(datatable(res,
+                     options = list(columnDefs=list(list(orderData=5,targets=5)))) %>%
+             formatStyle(columns = col_to_format,target = "row", backgroundColor = styleEqual(levels = c("Yes","No"),
                                                                        values = c("White","lightgray"))))
   })
 
@@ -200,7 +215,7 @@ server <- function(input, output) {
 
   })
 
-  output$Summary <- DT::renderDataTable({d = summary_CAS(); DT::datatable(d)})
+  output$Summary <- DT::renderDataTable({d = summary_CAS()})
 
 
 }
