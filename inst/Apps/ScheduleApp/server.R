@@ -210,12 +210,22 @@ server <- function(input, output) {
 
     }
 
-
     jdata
 
   })
 
-  output$Summary <- DT::renderDataTable({d = summary_CAS()})
+  output$Summary <- DT::renderDataTable({d = summary_CAS();
+  l <- unique(unlist(d[,-1]))
+  s <- str_split(l,"/",simplify = T)
+  r <- apply(s,1,function(x){as.numeric(x[2])-as.numeric(x[1])})
+  r <- order(r)
+  l <- l[r]
+
+  d <- d %>% mutate_at(-1,function(x){factor(x, levels = l)})
+
+  return(datatable(d))
+
+  })
 
 
 }
