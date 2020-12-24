@@ -85,7 +85,7 @@ server <- function(input, output) {
                 Stop = Stop.y[1],
                 Bld = Bld[1],
                 Room = Room[1],
-                `Compatible with Schedule` = ifelse(all(nonoverlapping_meetings),"Yes","No"))
+                `Compatible with Schedule` = ifelse(all(nonoverlapping_meetings),"Yes","No"),.groups = "drop")
 
     return(gdata)
   }
@@ -118,7 +118,7 @@ server <- function(input, output) {
                 Stop = Stop.y[1],
                 Bld = Bld[1],
                 Room = Room[1],
-                `Compatible with Schedule` = ifelse(all(nonoverlapping_meetings),"Yes","No"))
+                `Compatible with Schedule` = ifelse(all(nonoverlapping_meetings),"Yes","No"),.groups = "drop")
 
 
     return(cdata)
@@ -154,13 +154,15 @@ server <- function(input, output) {
     ) %>% group_by(`Class/Call`,`Type`) %>%
       summarize(Day = str_c(unique(Day),collapse = ","),
                 nonoverlapping_meetings = all(nonoverlapping_meetings),
-                overlapping_meetings = any(overlapping_meetings))
+                overlapping_meetings = any(overlapping_meetings),
+                .groups = "drop")
 
     # Consolidate conflicts by type and class
     jdata <- jdata %>%
       mutate(`Class/Call` = str_replace(`Class/Call`,"( [A-Z][0-9])",TFschedules::trim_off_number)) %>% group_by(`Class/Call`,`Type`) %>%
       summarize(`Compatible Sections` = sum(nonoverlapping_meetings),
-                `Total Sections` = sum(nonoverlapping_meetings)+sum(`overlapping_meetings`)) %>% arrange(`Compatible Sections`) %>%
+                `Total Sections` = sum(nonoverlapping_meetings)+sum(`overlapping_meetings`),
+                .groups = "drop") %>% arrange(`Compatible Sections`) %>%
       pivot_wider(names_from = Type,values_from = `Compatible Sections`:`Total Sections`) %>% replace(is.na(.),0)
 
 
@@ -189,7 +191,7 @@ server <- function(input, output) {
       remove1 <- str_c("Compatible Sections",types[i],sep = "_", collapse = T)
       remove2 <- str_c("Total Sections",types[i],sep = "_", collapse = T)
 
-      jdata <- jdata %>% select(!remove1) %>% select(!remove2)
+      jdata <- jdata %>% select(!all_of(remove1)) %>% select(!all_of(remove2))
 
     }
 
