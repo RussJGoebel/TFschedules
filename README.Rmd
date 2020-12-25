@@ -41,7 +41,7 @@ TFschedules::view_schedule()
 
 At this time, this app is running on Shinyapps.io at (https://russjgoebel.shinyapps.io/scheduleapp/).
 
-# Updating for Future Semesters
+## Updating for Future Semesters
 
 The CAS and GRS data was obtained by hand by saving the relevant html tables in the CAS and GRS data as .txt files. 
 To update the app, one method is to replace these files with updated files in the inst/Apps/ScheduleApp folder.
@@ -49,7 +49,7 @@ To update the app, one method is to replace these files with updated files in th
 The `rsconnect` package can be used to update the shinyapps.io site. 
 
 
-# Questions
+## Questions
 
 If you have any questions, email me at rgoebel@bu.edu. 
 
