@@ -18,7 +18,7 @@
 #' @import dplyr
 #' @import tidyr
 #'
-#' @export
+#'
 #'
 #' @examples
 htmltxt_to_table_schedule <- function(filename,by_day = FALSE){
@@ -70,7 +70,7 @@ htmltxt_to_table_schedule <- function(filename,by_day = FALSE){
 #' @param stoptime2 A string or time of the form "H:M pm", e.g. "9:00 pm"
 #'
 #' @return
-#' @export
+#'
 #'
 #' @examples
 check_not_overlap <- function(starttime1,stoptime1,starttime2,stoptime2){
@@ -91,7 +91,7 @@ check_not_overlap <- function(starttime1,stoptime1,starttime2,stoptime2){
 #' @param A1 A string that contains numbers to be removed.
 #'
 #' @return
-#' @export
+#'
 #'
 #' @examples
 trim_off_number <- function(A1){
