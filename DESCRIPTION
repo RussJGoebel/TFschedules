@@ -20,6 +20,8 @@ Imports:
   lubridate,
   dplyr,
   magrittr,
-  tidyr
+  tidyr,
+  purrr,
+  DT
 URL: https://github.com/RussJGoebel/TFschedules
 BugReports: https://github.com/RussJGoebel/TFschedules/issues
