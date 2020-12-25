@@ -18,9 +18,10 @@
 #' @import dplyr
 #' @import tidyr
 #'
+#' @export
 #'
 #'
-#' @examples
+#'
 htmltxt_to_table_schedule <- function(filename,by_day = FALSE){
 
   # Read HTML table (copy pasted into a text document)
@@ -28,6 +29,8 @@ htmltxt_to_table_schedule <- function(filename,by_day = FALSE){
   file_minHTML <- rvest::minimal_html("Title",file_rawHTML)
   file_table <- rvest::html_table(file_minHTML, fill = TRUE)[[1]]
 
+  # Courses with multiple start and stop times have days formatted like "Mon,Wed,FriThu", with no comma between the last two.
+  # For Day of this pattern, we create additional rows for the extra start/stop times.
   extraday_pattern <- c("(Mon,|Tue,|Wed,|Thu,|Fri,)+(Mon|Tue|Wed|Thu|Fri)(Mon|Tue|Wed|Thu|Fri)")
   regularschedule_pattern <- c("(Mon,|Tue,|Wed,|Thu,|Fri,)+(Mon|Tue|Wed|Thu|Fri)")
 
@@ -44,13 +47,14 @@ htmltxt_to_table_schedule <- function(filename,by_day = FALSE){
               ~case_when(`Class/Call` == lag(`Class/Call`) ~ str_remove(Day,regularschedule_pattern),
                          `Class/Call` == lead(`Class/Call`) ~ str_extract(Day,regularschedule_pattern),
                          TRUE ~ .))
+  # by_day specifies whether each day should have a unique row, or if they should be aggregated ("Mon,Wed,Fri" as one row, for example)
   if(by_day){
     file_table <- separate_rows(file_table,Day)
   }
 
   ### ------------------------------------------------------------------------------------------------
 
-  # To compare starttimes and endtimes, we converte from the form e.g "2:30pm" to military time.
+  # To compare starttimes and endtimes, we converte from the form e.g "2:30pm" to a time format.
 
   file_table <- file_table %>% mutate(Start = format(lubridate::parse_date_time(Start, '%I:%M %p'), '%I:%M %p'),
                                       Stop  =  format(lubridate::parse_date_time(Stop, '%I:%M %p'), '%I:%M %p'))
@@ -69,10 +73,12 @@ htmltxt_to_table_schedule <- function(filename,by_day = FALSE){
 #' @param starttime2 A string or time of the form "H:M pm", e.g. "9:00 pm"
 #' @param stoptime2 A string or time of the form "H:M pm", e.g. "9:00 pm"
 #'
+#'
+#'
 #' @return
 #'
+#' @export
 #'
-#' @examples
 check_not_overlap <- function(starttime1,stoptime1,starttime2,stoptime2){
 
   x_start <- lubridate::parse_date_time(starttime1, '%I:%M %p')
@@ -92,8 +98,8 @@ check_not_overlap <- function(starttime1,stoptime1,starttime2,stoptime2){
 #'
 #' @return
 #'
+#' @export
 #'
-#' @examples
 trim_off_number <- function(A1){
   stringr::str_remove(A1,"[0-9]+")
 }

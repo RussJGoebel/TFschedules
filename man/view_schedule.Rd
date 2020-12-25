@@ -12,3 +12,8 @@ view_schedule()
 \description{
 Runs the TF schedule app
 }
+\examples{
+
+#TFschedules::view_schedule()
+
+}

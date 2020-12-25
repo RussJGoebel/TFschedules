@@ -1,5 +1,12 @@
-library(tidyverse)
+#library(tidyverse)
+library(shiny)
+library(dplyr)
+library(tidyr)
+library(lubridate)
+library(rhandsontable)
+library(stringr)
 library(TFschedules)
+library(magrittr)
 library(DT)
 
 server <- function(input, output) {
