@@ -190,8 +190,8 @@ server <- function(input, output) {
 
 
 
-    `Total Sections` <-  jdata %>% ungroup() %>% transmute(total = reduce(select(.,starts_with("Total")),`+`))
-    `Compatible Sections` <- jdata %>% ungroup() %>% transmute(total = reduce(select(.,starts_with("Compatible")),`+`))
+    `Total Sections` <-  jdata %>% ungroup() %>% transmute(total = purrr::reduce(select(.,starts_with("Total")),`+`))
+    `Compatible Sections` <- jdata %>% ungroup() %>% transmute(total = purrr::reduce(select(.,starts_with("Compatible")),`+`))
 
     jdata$`Incompatible Sections` <- `Total Sections`$total-`Compatible Sections`$total #incompatible sections
 
