@@ -4,6 +4,9 @@
 #' @export
 #'
 #' @examples
+#'
+#' #TFschedules::view_schedule()
+#'
 view_schedule <- function(){
 
     appDir <- system.file("Apps","ScheduleApp", package = "TFschedules")

@@ -37,6 +37,13 @@ TFschedules::view_schedule()
 
 ```
 
+# Updating for Future Semesters
 
+The CAS and GRS data was obtained by hand by saving the relevant html tables in the CAS and GRS data as .txt files. 
+To update the app, one method is to replace these files with updated files in the inst/Apps/ScheduleApp folder.
+
+# Questions
+
+If you have any questions, email me at rgoebel@bu.edu. 
 
 
