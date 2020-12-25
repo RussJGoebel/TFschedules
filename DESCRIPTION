@@ -21,6 +21,7 @@ Imports:
   dplyr,
   magrittr,
   tidyr,
-  purrr
+  purrr,
+  DT
 URL: https://github.com/RussJGoebel/TFschedules
 BugReports: https://github.com/RussJGoebel/TFschedules/issues

@@ -1,4 +1,3 @@
-library(shinyTime)
 library(TFschedules)
 library(DT)
 
