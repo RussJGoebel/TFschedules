@@ -8,6 +8,7 @@ library(stringr)
 library(TFschedules)
 library(magrittr)
 library(DT)
+library(purrr)
 
 server <- function(input, output) {
 
