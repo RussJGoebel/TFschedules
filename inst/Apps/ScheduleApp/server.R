@@ -90,14 +90,13 @@ server <- function(input, output) {
     gdata <- gdata %>%mutate(
       nonoverlapping_meetings = ifelse(value,check_not_overlap(Start.x,Stop.x,Start.y,Stop.y),TRUE),
       overlapping_meetings = !ifelse(value,check_not_overlap(Start.x,Stop.x,Start.y,Stop.y),TRUE)
-    )  %>% group_by(`Class/Call`,Type) %>%
-      summarise(`Title/Instructor` = `Title/Instructor`[1],
-                Day = str_c(unique(Day),collapse = ","),
-                Start = Start.y[1],
-                Stop = Stop.y[1],
-                Bld = Bld[1],
-                Room = Room[1],
-                `Compatible with Schedule` = ifelse(all(nonoverlapping_meetings),"Yes","No"),.groups = "drop")
+    ) %>% group_by(`Class/Call`,`Title/Instructor`,Type,Start = Start.y,Stop = Stop.y) %>%
+      summarize(Day = str_c(unique(Day),collapse = ","),
+                Bld = Bld,
+                Room = Room,
+                `Compatible with Schedule` = ifelse(all(nonoverlapping_meetings),"Yes","No"),.groups = "drop")%>%
+      select(`Class/Call`,`Title/Instructor`,Type,Day,Start,Stop,Bld,Room,`Compatible with Schedule`)
+
 
     return(gdata)
   }
@@ -128,15 +127,12 @@ server <- function(input, output) {
     cdata <- cdata %>%mutate(
       nonoverlapping_meetings = ifelse(value,check_not_overlap(Start.x,Stop.x,Start.y,Stop.y),TRUE),
       overlapping_meetings = !ifelse(value,check_not_overlap(Start.x,Stop.x,Start.y,Stop.y),TRUE)
-    ) %>% group_by(`Class/Call`,Type) %>%
-      summarize(`Title/Instructor` = `Title/Instructor`[1],
-                Day = str_c(unique(Day),collapse = ","),
-                Start = Start.y[1],
-                Stop = Stop.y[1],
-                Bld = Bld[1],
-                Room = Room[1],
-                `Compatible with Schedule` = ifelse(all(nonoverlapping_meetings),"Yes","No"),.groups = "drop")
-
+    ) %>% group_by(`Class/Call`,`Title/Instructor`,Type,Start = Start.y,Stop = Stop.y) %>%
+      summarize(Day = str_c(unique(Day),collapse = ","),
+                Bld = Bld,
+                Room = Room,
+                `Compatible with Schedule` = ifelse(all(nonoverlapping_meetings),"Yes","No"),.groups = "drop")%>%
+      select(`Class/Call`,`Title/Instructor`,Type,Day,Start,Stop,Bld,Room,`Compatible with Schedule`)
 
     return(cdata)
   }
