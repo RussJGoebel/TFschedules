@@ -1,0 +1,10 @@
+name: tfschedules
+title:
+username:
+account: russjgoebel
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3440461
+bundleId: 4053900
+url: https://russjgoebel.shinyapps.io/tfschedules/
+when: 1609699907.91482
