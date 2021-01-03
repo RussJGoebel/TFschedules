@@ -90,11 +90,9 @@ server <- function(input, output) {
     gdata <- gdata %>%mutate(
       nonoverlapping_meetings = ifelse(value,check_not_overlap(Start.x,Stop.x,Start.y,Stop.y),TRUE),
       overlapping_meetings = !ifelse(value,check_not_overlap(Start.x,Stop.x,Start.y,Stop.y),TRUE)
-    ) %>% group_by(`Class/Call`) %>%
+    ) %>% group_by(`Class/Call`,Start = Start.y,Stop = Stop.y) %>%
       summarize(`Title/Instructor` = unique(`Title/Instructor`),
                 Type = unique(Type),
-                Start = unique(Start.y),
-                Stop  = unique(Stop.y),
                 Day = str_c(unique(Day),collapse = ","),
                 Bld = unique(Bld),
                 Room = unique(Room),
@@ -131,7 +129,7 @@ server <- function(input, output) {
     cdata <- cdata %>%mutate(
       nonoverlapping_meetings = ifelse(value,check_not_overlap(Start.x,Stop.x,Start.y,Stop.y),TRUE),
       overlapping_meetings = !ifelse(value,check_not_overlap(Start.x,Stop.x,Start.y,Stop.y),TRUE)
-    ) %>% group_by(`Class/Call`) %>%
+    ) %>% group_by(`Class/Call`,Start = Start.y,Stop = Stop.y) %>%
       summarize(`Title/Instructor` = unique(`Title/Instructor`),
                 Type = unique(Type),
                 Start = unique(Start.y),
