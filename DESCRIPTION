@@ -22,6 +22,7 @@ Imports:
   magrittr,
   tidyr,
   purrr,
-  DT
+  DT,
+  rmarkdown
 URL: https://github.com/RussJGoebel/TFschedules
 BugReports: https://github.com/RussJGoebel/TFschedules/issues
